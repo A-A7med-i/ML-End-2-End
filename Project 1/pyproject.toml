@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gusml"
+version = "1.0"
+description = "ML End-to-End Project for Loan Status Classification"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Ahmed Nabil", email = "an223602@gmail.com"},
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+]
+
+[tool.setuptools]
+packages = ["gusml"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = [
+    "tests",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
