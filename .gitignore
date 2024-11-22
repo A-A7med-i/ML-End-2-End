@@ -3,3 +3,4 @@
 gusml.egg-info
 *__pycache__
 *.html
+.gradio
