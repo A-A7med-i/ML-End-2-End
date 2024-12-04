@@ -1,0 +1,6 @@
+DATA_PATH = r"E:\End-2-End\Project 2\data\raw\ds_salaries.csv"
+EXPORT_PATH_1 = r"..\data\processed\01_clean data_df.csv"
+EXPORT_PATH_2 = r"..\data\processed\03_feature_engineering.csv"
+EXPORT_PATH_3 = r"..\data\processed\data"
+FINAL_PATH = r"..\data\processed\05_preprocessing.csv"
+MODEL_PATH = r"..\model\random_forest.pkl"
