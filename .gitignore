@@ -1,6 +1,6 @@
 .idea
 .vscode
-gusml.egg-info
+*.egg-info
 *__pycache__
 *.html
 .gradio
