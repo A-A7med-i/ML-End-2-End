@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smartphone Usage Predictor</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <h1>Smartphone Usage Predictor</h1>
+
+    <form id="predictionForm">
+
+        <div class="form-group">
+            <label>Device Model: </label>
+            <input type="input" id="f1" required>
+        </div>
+
+        <div class="form-group">
+            <label>Operating System: </label>
+            <input type="input" id="f2" required>
+        </div>
+
+        <div class="form-group">
+            <label>App Usage Time (min/day): </label>
+            <input type="input" id="f3" step="any" required>
+        </div>
+
+        <div class="form-group">
+            <label>Screen On Time (hours/day): </label>
+            <input type="input" id="f4" step="any" required>
+        </div>
+
+        <div class="form-group">
+            <label>Battery Drain (mAh/day): </label>
+            <input type="input" id="f5" step="any" required>
+        </div>
+
+        <div class="form-group">
+            <label>Number of Apps Installed: </label>
+            <input type="input" id="f6" required>
+        </div>
+
+        <div class="form-group">
+            <label>Data Usage (MB/day): </label>
+            <input type="input" id="f7" step="any" required>
+        </div>
+
+
+        <div>
+            <button type="submit">Predict</button>
+        </div>
+
+    </form>
+
+
+    <div id="result"></div>
+
+    <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+

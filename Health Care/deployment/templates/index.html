@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Medical Test Predictor</title>
+</head>
+
+<body>
+    <h1>Medical Test Prediction</h1>
+    <form id="predictionForm">
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" name="Age" required>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <select name="Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Blood Type:</label>
+                <select name="Blood Type" required>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Medical Condition:</label>
+                <input type="text" name="Medical Condition" required>
+            </div>
+            <div class="form-group">
+                <label>Date of Admission:</label>
+                <input type="date" name="Date of Admission" required>
+            </div>
+            <div class="form-group">
+                <label>Insurance Provider:</label>
+                <input type="text" name="Insurance Provider" required>
+            </div>
+            <div class="form-group">
+                <label>Billing Amount:</label>
+                <input type="number" name="Billing Amount" required>
+            </div>
+            <div class="form-group">
+                <label>Room Number:</label>
+                <input type="text" name="Room Number" required>
+            </div>
+            <div class="form-group">
+                <label>Admission Type:</label>
+                <select name="Admission Type" required>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Emergency">Emergency</option>
+                    <option value="Elective">Elective</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Discharge Date:</label>
+                <input type="date" name="Discharge Date" required>
+            </div>
+            <div class="form-group">
+                <label>Medication:</label>
+                <input type="text" name="Medication" required>
+            </div>
+        </div>
+        <button type="submit">Predict</button>
+    </form>
+    <div class="result" id="result"></div>
+
+    <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>

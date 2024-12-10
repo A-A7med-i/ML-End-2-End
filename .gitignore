@@ -2,6 +2,5 @@
 .vscode
 *.egg-info
 *__pycache__
-*.html
 .gradio
 venv
