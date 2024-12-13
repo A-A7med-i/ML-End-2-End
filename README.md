@@ -6,25 +6,26 @@ This repository houses a collection of end-to-end machine learning projects, sho
 ```
 
 ├── data/
-│   ├── raw/
-│   │   └── [Raw data files]
-│   └── processed/
-│       └── [Processed data files]
+│   ├── raw/
+│   │   └── [Raw data files]
+│   └── processed/
+│       └── [Processed data files]
 ├── deployment/
-│   └── [Deployment scripts]
-|   modeling/
-|   └── [Trained model files]
+│   └── [Deployment scripts]
+│   modeling/
+│  └── [Trained model files]
 ├── models/
-│   └── [model-specific files]
+│   └── [model-specific files]
 ├── notebooks/
-│   └── [notebooks]
+│   └── [notebooks]
 ├── reports/
-│   └── [Project reports and presentations]
+│   └── [Project reports and presentations]
 ├── scripts/
-|   └──[scripts]
+│  └──[scripts]
 ├── requirements.txt
 ├── setup.py
 └── README.md
+
 ```
 
 
