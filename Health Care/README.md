@@ -93,5 +93,3 @@ We welcome contributions!
 3. Make your changes
 4. Commit and push your branch
 5. Open a pull request
-
----
